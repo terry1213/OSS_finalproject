@@ -32,6 +32,10 @@
 .title:hover{
     cursor: pointer;
 }
+.second-title{
+    text-align: center;
+    font-size: 20px;
+}
 .right-header{
     text-align: right;
     padding: 0.5em;
