@@ -1,71 +1,38 @@
-	.html, div, body, h1{
-	  margin: 0;
-	  padding: 0;
-	}
-	.header{
-	  padding: 0.5em;
-	  background-color: #bcffbc;
-	  border-bottom: 1px solid #bbb;
-	}
-	.left-header{
-	  float: left;
-	  width: 25%;
-	  padding: 0.5em;
-	}
-	.go-home{
-	  font-size: 3em;
-	  padding: 3px;
-	}
-	.go-home:hover{
-	  cursor: pointer;
-	  color: #555;
-	}
-	.logout{
-	  font-size: 3em;
-	  padding: 3px;
-	}
-	.logout:hover{
-	  cursor: pointer;
-	  color: #555;
-	}
-	.middle-header{
-	  width: 49%;
-	  float: left;
-	}
-	.title{
-	  text-align: center;
-	  padding: 0.5em;
-	  font-size: 30px;
-	}
-	.title:hover{
-	  cursor: pointer;
-	}
-	.right-header{
-	  text-align: right;
-	  padding: 0.5em;
-	}
-	.setting{
-	  font-size: 3em;
-	  padding: 3px;
-	}
-	.setting:hover{
-	  cursor: pointer;
-	  color: #555;
-	}
-	.alarm{
-	  font-size: 3em;
-	  padding: 3px;
-	  font-weight: bold !important;
-	}
-	.alarm:hover{
-	  cursor: pointer;
-	  color: #555;
-	}
-	.go-private{
-	  font-size: 3em;
-	  padding: 3px
-	}
-	.go-private:hover{
-	  cursor: pointer;
-	  color: #555;
-	}
+.html, div, body, h1{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 0.5em;
+    background-color: #bcffbc;
+    border-bottom: 1px solid #bbb;
+}
+.left-header{
+    float: left;
+    width: 25%;
+    padding: 0.5em;
+}
+.go-home{
+    font-size: 3em;
+    padding: 3px;
+}
+.go-home:hover{
+    cursor: pointer;
+    color: #555;
+}
+.middle-header{
+    width: 49%;
+    float: left;
+}
+.title{
+    text-align: center;
+    padding: 0.5em;
+    font-size: 30px;
+}
+.title:hover{
+    cursor: pointer;
+}
+.right-header{
+    text-align: right;
+    padding: 0.5em;
+}
