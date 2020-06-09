@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head include-html="/base/head.html">
 </head>
 
