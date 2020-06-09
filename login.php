@@ -25,7 +25,7 @@
                    <input class="form-control" type='text' name='user_id'/>
                 </div>
                 <div class="form-group">
-                   <input type='password' name='user_pw'/>
+                   <input class="form-control" type='password' name='user_pw'/>
                 </div>
                 <input type='submit' class="btn btn-dark form-control" value='로그인'/>
              </form>
