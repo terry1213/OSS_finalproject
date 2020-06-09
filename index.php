@@ -1,9 +1,14 @@
 <!DOVTYPE html>
 <html>
-<header>
-</header>
+
+<head>
+<meta charset="UTF-8">
+<title>분리된 HTML</title>
+<script src="/js/includeHTML.js"></script>
+</head>
+
 <body>
-<header include-html="base/header.html"></header>
+<header include-html="/base/header.html"></header>
 
 <h1>My first PHP page</h1>
 
@@ -12,4 +17,9 @@ echo "Hello World!";
 ?>
 
 </body>
+
+<script>
+    includeHTML();
+</script>
+
 </html>
