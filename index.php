@@ -14,6 +14,9 @@
         include ("base/userInfo.php");
     ?>
 
+    <?php
+        include ("base/footer.php");
+    ?>
 </body>
 
 </html>

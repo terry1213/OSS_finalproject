@@ -57,6 +57,11 @@
             </tbody>
         </table>
     </article>
+
+    <?php
+        include ("base/footer.php");
+    ?>
+
 </body>
 
 </html>

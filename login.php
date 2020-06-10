@@ -27,10 +27,9 @@
           </div>
        </div>
     </div>
+
+    <?php
+        include ("base/footer.php");
+    ?>
 </body>
-
-<script>
-    includeHTML();
-</script>
-
 </html>
