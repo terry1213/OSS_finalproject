@@ -10,13 +10,13 @@
                 <h5>LINKS</h5>
                 <ul class="list-unstyled">
                     <li>
-                        <a onClick="location.href='/'">Home</a>
+                        <a class="link" onClick="location.href='/'">Home</a>
                     </li>
                     <li>
-                        <a onClick="location.href='/list.php'">List</a>
+                        <a class="link" onClick="location.href='/list.php'">List</a>
                     </li>
                     <li>
-                        <a onClick="location.href='/MyPage.php'">My Page</a>
+                        <a class="link" onClick="location.href='/MyPage.php'">My Page</a>
                     </li>
                 </ul>
             </div>

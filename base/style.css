@@ -1,9 +1,15 @@
 footer, header .navbar {
     background-color: F6F6F6;
 }
+footer .list {
+    cursor: pointer;
+}
 footer .copyright {
     background-color: A4A4A4;
     color: gray;
+}
+footer .copyright a {
+    color: black;
 }
 .user-info {
     display: block;
