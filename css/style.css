@@ -7,10 +7,10 @@ body {
 }
 article {
     padding: 10px;
-    width: 80%;
+    width: 75%;
 }
 aside{
-    
+    width: 20%;
 }
 footer {
     position:absolute;
