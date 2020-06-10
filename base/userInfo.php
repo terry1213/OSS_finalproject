@@ -7,7 +7,7 @@
         }
         $user_id = $_SESSION['user_id'];
         $user_name = $_SESSION['user_name'];
-        echo "<div class=\"profile-container container text-center\">";
+        echo "<div class=\"profile-container container\">";
         echo "<a>안녕하세요.<br>$user_name($user_id)님</a>";
         
         echo "<table class='table'>";
