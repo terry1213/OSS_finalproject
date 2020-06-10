@@ -12,7 +12,6 @@
     ?>
 
     <article>
-        <div class ="container">
            <div class="col-lg-4" style="margin:auto">
               <div class="jumbotron" style="padding-top:20px;">
                  <form method='post' action='login_ok.php'>
@@ -27,11 +26,11 @@
                  </form>
               </div>
            </div>
-        </div>
     </article>
 
     <?php
         include ("base/footer.php");
     ?>
 </body>
+
 </html>
