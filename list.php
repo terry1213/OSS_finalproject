@@ -16,7 +16,7 @@
 
 <body>
     <header include-html="/base/header.html"></header>
-    <nav>
+    <nav class="user-info">
         <?php
             session_start();
             if(!isset($_SESSION['user_id']) || !isset($_SESSION['user_name'])) {
