@@ -8,7 +8,7 @@ body {
 article {
     min-height: 100%;
     position: relative;
-    margin: 20px;
+    padding-bottom: 200px;
 }
 footer {
     position:absolute;
