@@ -7,7 +7,7 @@
         }
         $user_id = $_SESSION['user_id'];
         $user_name = $_SESSION['user_name'];
-        echo "<div class=\"container\">";
+        echo "<div class=\"jumbotron\">";
         echo "<a>안녕하세요.<br>$user_name($user_id)님</a>";
         echo "<button class='btn btn-info' onClick=\"location.href='/logout.php'\">로그아웃</button>";
         echo "</div>"
