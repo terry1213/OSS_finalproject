@@ -5,11 +5,6 @@ body {
     margin: 0;
     height: 100%;
 }
-article {
-    min-height: 100%;
-    position: relative;
-    padding-bottom: 200px;
-}
 footer {
     position:absolute;
     bottom:0;
@@ -31,6 +26,11 @@ footer .copyright {
 }
 footer .copyright a {
     color: black;
+}
+.wrap {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 200px;
 }
 .user-info {
     display: block;
