@@ -49,7 +49,7 @@
             $count = 0;
             while($row = mysqli_fetch_array($result)) {
                 echo '<tr>';
-                echo '<td scope="row">'.++count.'</td>';
+                echo '<td scope="row">'.++$count.'</td>';
                 echo '<td>'.$row['name'].'</td>';
                 echo '<td>'.$row['locate'].'</td>';
                 echo '<td>'.$row['date'].'</td>';
