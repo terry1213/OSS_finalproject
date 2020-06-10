@@ -1,6 +1,9 @@
 footer, header .navbar {
     background-color: F6F6F6;
 }
+footer .copyright {
+    background-color: A4A4A4;
+}
 .user-info {
     display: block;
 }
