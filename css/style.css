@@ -4,6 +4,7 @@ article {
 footer {
     position:absolute;
     bottom:0;
+    width:100%;
 }
 footer, header .navbar {
     background-color: F6F6F6;
