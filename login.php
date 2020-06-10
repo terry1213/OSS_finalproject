@@ -11,48 +11,20 @@
     ?>
 
     <article>
-        <table class="table table-striped item-list">
-            <thead>
-                <tr>
-                    <th scope="col">
-                        NO.
-                    </th>
-                    <th scope="col">
-                        물품
-                    </th>
-                    <th scope="col">
-                        위치
-                    </th>
-                    <th scope="col">
-                        날짜
-                    </th>
-                    <th scope="col">
-                        상태
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-            <?php
-                $conn = mysqli_connect(
-                  'localhost',
-                  'root',
-                  '1213',
-                  'histhing');
-                $sql = "SELECT writer_id, name, locate, date, state FROM Item";
-                $result = mysqli_query($conn, $sql);
-                $count = 0;
-                while($row = mysqli_fetch_array($result)) {
-                    echo '<tr>';
-                    echo '<td scope="row">'.++$count.'</td>';
-                    echo '<td>'.$row['name'].'</td>';
-                    echo '<td>'.$row['locate'].'</td>';
-                    echo '<td>'.$row['date'].'</td>';
-                    echo '<td>'.$row['state'].'</td>';
-                    echo '</tr>';
-                }
-            ?>
-            </tbody>
-        </table>
+        <div class ="login-container container col-lg-4">
+            <div class="login-jumbo jumbotron">
+                <form method='post' action='login_ok.php'>
+                    <h2 class="text-center">Login</h2>
+                    <div class="form-group">
+                        <input class="form-control" type='text' name='user_id'/>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type='password' name='user_pw'/>
+                    </div>
+                    <input type='submit' class="btn btn-dark form-control" value='로그인'/>
+                </form>
+            </div>
+        </div>
     </article>
 
     <?php
