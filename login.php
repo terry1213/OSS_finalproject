@@ -12,7 +12,8 @@
     ?>
 
     <article>
-           <div class="col-lg-4" style="margin:auto">
+        <div class ="container">
+           <div style="margin:auto">
               <div class="jumbotron" style="padding-top:20px;">
                  <form method='post' action='login_ok.php'>
                     <h2 style="text-align:center;">Login</h2>
@@ -26,6 +27,7 @@
                  </form>
               </div>
            </div>
+        </div>
     </article>
 
     <?php
