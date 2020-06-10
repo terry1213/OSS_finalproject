@@ -10,13 +10,13 @@
                 <h5>LINKS</h5>
                 <ul class="list-unstyled">
                     <li>
-                        <a href="/">Home</a>
+                        <a onClick="location.href='/'">Home</a>
                     </li>
                     <li>
-                        <a href="/list.php">List</a>
+                        <a onClick="location.href='/list.php'">List</a>
                     </li>
                     <li>
-                        <a href="/MyPage.php">My Page</a>
+                        <a onClick="location.href='/MyPage.php'">My Page</a>
                     </li>
                 </ul>
             </div>
@@ -24,6 +24,6 @@
     </div>
 
     <div class="copyright text-center py-3">© 2020 Copyright:
-        <a href="/"> Yeonwoo Lim</a>
+        <a> Yeonwoo Lim</a>
     </div>
 </footer>

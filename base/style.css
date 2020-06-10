@@ -3,6 +3,7 @@ footer, header .navbar {
 }
 footer .copyright {
     background-color: A4A4A4;
+    color: gray;
 }
 .user-info {
     display: block;
