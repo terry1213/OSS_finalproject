@@ -25,6 +25,12 @@ aside{
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
     background-color: F6F6F6;
 }
+.profile-container a {
+    float: left;
+}
+.profile-container button {
+    float: right;
+}
 footer {
     position:absolute;
     bottom:0;
