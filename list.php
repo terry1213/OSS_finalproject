@@ -25,7 +25,7 @@
             }
             $user_id = $_SESSION['user_id'];
             $user_name = $_SESSION['user_name'];
-            echo "<p>안녕하세요. $user_name($user_id)님</p>";
+            echo "<a>안녕하세요. $user_name($user_id)님</a>";
             echo "<button class='btn btn-info' href='logout.php'>로그아웃</button>";
         ?>
     </nav>
