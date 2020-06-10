@@ -5,8 +5,8 @@ body {
     margin: 0;
     height: 100%;
 }
-i {
-    margin: 2px;
+i, button {
+    margin: 3px;
 }
 article {
     padding: 30px;
