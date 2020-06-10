@@ -10,6 +10,7 @@ article {
     width: 90%;
 }
 aside{
+    position: fixed;
     float: right;
     padding: 30px;
     width: 20%;
