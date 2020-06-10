@@ -13,7 +13,7 @@
         echo "<table class='table'>";
         echo "<tbody>";
         echo "<tr>";
-        echo "<th scope='row'>아이디</th>";
+        echo "<th scope='row'><i class='fa fa-id-card' aria-hidden='true'></i>아이디</th>";
         echo "<td>$user_id</td>";
         echo "</tr>";
         echo "<tr>";
