@@ -57,7 +57,7 @@
                 ?>
                 </tbody>
             </table>
-            <button class='btn btn-info' onClick="location.href='/upload.php'"></button>
+            <button class='btn btn-info' onClick="location.href='/upload.php'">글쓰기</button>
         </article>
 
         <?php
