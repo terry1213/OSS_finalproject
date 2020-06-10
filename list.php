@@ -36,7 +36,8 @@
                     상태
                 </th>
             </tr>
-        </thead>
+	</thead>
+	<tbody>
     <?php
         $conn = mysqli_connect(
           'localhost',
@@ -54,7 +55,8 @@
             echo '<td>'.$row['state'].'</td>';
             echo '</tr>';
         }
-    ?>
+	?>
+	</tbody>
     </table>
 </body>
 
