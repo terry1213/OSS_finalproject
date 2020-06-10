@@ -5,6 +5,13 @@ body {
     margin: 0;
     height: 100%;
 }
+article {
+    padding: 10px;
+    width: 80%;
+}
+aside{
+    
+}
 footer {
     position:absolute;
     bottom:0;
