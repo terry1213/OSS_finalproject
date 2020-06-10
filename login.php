@@ -9,26 +9,21 @@
     <?php
         include ("base/header.php");
     ?>
-    <?php
-        include ("base/userInfo.php");
-    ?>
     
     <article>
-        <div class ="container">
-           <div class="col-lg-4" style="margin:auto">
-              <div class="jumbotron" style="padding-top:20px;">
-                 <form method='post' action='login_ok.php'>
-                    <h2 style="text-align:center;">Login</h2>
+        <div class ="login-container container col-lg-4">
+            <div class="login-jumbo jumbotron">
+                <form method='post' action='login_ok.php'>
+                    <h2 class="text-center">Login</h2>
                     <div class="form-group">
-                       <input class="form-control" type='text' name='user_id'/>
+                        <input class="form-control" type='text' name='user_id'/>
                     </div>
                     <div class="form-group">
-                       <input class="form-control" type='password' name='user_pw'/>
+                        <input class="form-control" type='password' name='user_pw'/>
                     </div>
                     <input type='submit' class="btn btn-dark form-control" value='로그인'/>
-                 </form>
-              </div>
-           </div>
+                </form>
+            </div>
         </div>
     </article>
 

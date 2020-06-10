@@ -25,3 +25,9 @@ footer .copyright a {
 .item-list {
     width: 80%;
 }
+.login-container {
+    margin:auto;
+}
+.login-jumbo {
+    padding-top:20px;
+}
