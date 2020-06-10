@@ -59,8 +59,4 @@
     </article>
 </body>
 
-<script>
-    includeHTML();
-</script>
-
 </html>
