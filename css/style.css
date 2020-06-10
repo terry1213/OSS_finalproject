@@ -26,6 +26,7 @@ aside{
     background-color: F6F6F6;
 }
 .profile-container a {
+    margin: 3px;
     float: left;
 }
 .profile-container button {
