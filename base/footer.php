@@ -1,8 +1,8 @@
-<footer class="page-footer font-small blue pt-4">
+<footer class="page-footer pt-4">
     <div class="container-fluid text-center text-md-left">
         <div class="row">
             <div class="col-md-6 mt-md-0 mt-3">
-                <h5 class="text-uppercase">Histhing</h5>
+                <h5>Histhing</h5>
                 <p>잃어버린 물건을 찾아가세요!</p>
             </div>
             <hr class="clearfix w-100 d-md-none pb-3">
