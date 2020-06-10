@@ -11,7 +11,20 @@
     ?>
     
     <article>
-
+        <div class ="login-container container col-lg-4">
+            <div class="login-jumbo jumbotron">
+                <form method='post' action='login_ok.php'>
+                    <h2 class="text-center">Login</h2>
+                    <div class="form-group">
+                        <input class="form-control" type='text' name='user_id'/>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type='password' name='user_pw'/>
+                    </div>
+                    <input type='submit' class="btn btn-dark form-control" value='로그인'/>
+                </form>
+            </div>
+        </div>
     </article>
 
     <?php
