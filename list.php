@@ -24,7 +24,7 @@
           'root',
           '1213',
           'histhing');
-        $sql = "SELECT * FROM item";
+        $sql = "SELECT * FROM Item";
         $result = mysqli_query($conn, $sql);
         $row = mysqli_fetch_array($result);
         while($row = mysqli_fetch_array($result)) {
