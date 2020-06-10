@@ -57,6 +57,7 @@
                 ?>
                 </tbody>
             </table>
+            <button class='btn btn-info' onClick="location.href='/upload.php'"></button>
         </article>
 
         <?php
