@@ -5,6 +5,9 @@ body {
     margin: 0;
     height: 100%;
 }
+i {
+    margin: 2px;
+}
 article {
     padding: 30px;
     width: 100%;
