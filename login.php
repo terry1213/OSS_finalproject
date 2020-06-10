@@ -6,11 +6,12 @@
 ?>
 
 <body>
-
     <?php
         include ("base/header.php");
     ?>
-
+    
+    <nav></nav>
+    
     <article>
         <div class ="container">
            <div class="col-lg-4" style="margin:auto">
