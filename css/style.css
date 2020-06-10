@@ -15,6 +15,11 @@ aside{
     padding: 30px;
     width: 20%;
 }
+profile-container {
+    border:1px solid #DDDDDD;
+    border-radius:10px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
 footer {
     position:absolute;
     bottom:0;
