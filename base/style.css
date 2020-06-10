@@ -3,6 +3,10 @@ footer, header .navbar {
 }
 footer .link {
     cursor: pointer;
+    color: gray;
+}
+footer .link:hover{
+    color: black;
 }
 footer .copyright {
     background-color: A4A4A4;
