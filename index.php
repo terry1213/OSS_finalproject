@@ -15,7 +15,10 @@
 </head>
 
 <body>
-    <header include-html="/base/header.html"></header>
+    
+    <?php
+        include ("base/header.php");
+    ?>
     <nav class="user-info">
         <?php
             session_start();
