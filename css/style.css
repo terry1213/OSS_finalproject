@@ -1,6 +1,10 @@
 article {
     margin: 20px;
 }
+footer {
+    position:absolute;
+    bottom:0;
+}
 footer, header .navbar {
     background-color: F6F6F6;
 }
