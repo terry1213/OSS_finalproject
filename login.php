@@ -9,8 +9,9 @@
     <?php
         include ("base/header.php");
     ?>
-    
-    <nav></nav>
+    <?php
+        include ("base/userInfo.php");
+    ?>
     
     <article>
         <div class ="container">
