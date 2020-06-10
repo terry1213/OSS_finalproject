@@ -6,11 +6,12 @@ body {
     height: 100%;
 }
 article {
-    padding: 10px;
+    padding: 30px;
     width: 90%;
 }
 aside{
     float: right;
+    padding: 30px;
     width: 20%;
 }
 footer {
