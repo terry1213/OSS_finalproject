@@ -8,7 +8,7 @@
         $user_id = $_SESSION['user_id'];
         $user_name = $_SESSION['user_name'];
         echo "<div class=\"profile-container container\">";
-        echo "<a>안녕하세요.<br>$user_name($user_id)님</a>";
+        echo "<a><strong>안녕하세요.<br>$user_name($user_id)님</strong></a>";
         
         echo "<table class='table'>";
         echo "<tbody>";
