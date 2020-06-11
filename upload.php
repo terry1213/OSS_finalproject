@@ -16,7 +16,7 @@
     
     <div class="wrap">
         <article>
-            <form class="upload-form" name="upload-form" id="upload-form" role="form" method="post" action="${pageContext.request.contextPath}/board/saveBoard">
+            <form class="upload-form" name="upload-form" id="upload-form" role="form" method="post" action="\uploadAction.php">
                 <div class="form-group">
                     <label for="name">물품</label>
                     <input type="text" class="form-control" name="name" id="name" placeholder="물품명을 입력해 주세요." required>
