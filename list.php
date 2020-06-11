@@ -42,7 +42,7 @@
                       'root',
                       '1213',
                       'histhing');
-                    $sql = "SELECT writer_id, name, locate, date, state FROM Item";
+                    $sql = "SELECT writer_id, name, locate, date, state FROM Item ORDER BY item_id DESC";
                     $result = mysqli_query($conn, $sql);
                     $count = 0;
                     while($row = mysqli_fetch_array($result)) {
