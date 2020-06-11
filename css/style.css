@@ -8,9 +8,15 @@ body {
 i, button {
     margin: 3px;
 }
+textarea {
+    resize: none;
+}
+label {
+    font-weight: bold;
+}
 article {
     padding: 30px;
-    width: 100%;
+    width: 80%;
 }
 aside{
     position: fixed;
@@ -67,11 +73,17 @@ footer .copyright a {
     margin: 10px;
 }
 .item-list {
-    width: 80%;
+    width: 100%;
 }
 .login-container {
     margin:auto;
 }
 .login-jumbo {
     padding-top:20px;
+}
+.upload-form {
+    width: 100%;
+}
+.hidden-form-group {
+    display: none;
 }
