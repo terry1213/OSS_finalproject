@@ -16,13 +16,15 @@ label {
 }
 article {
     padding: 30px;
-    width: 80%;
+    width: 75%;
 }
 aside{
+    z-index: 99 !important;
     position: fixed;
     right: 0;
     padding: 30px;
     width: 20%;
+    min-width: 280px;
 }
 .profile-container {
     padding: 5px;
