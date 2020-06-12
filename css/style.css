@@ -8,6 +8,9 @@ body {
 i, button, input {
     margin: 3px;
 }
+p {
+    margin: 0;
+}
 textarea {
     resize: none;
 }
@@ -95,4 +98,24 @@ footer .copyright a {
 }
 .hidden-form-group {
     display: none;
+}
+.account-form .form-group {
+    float: left;
+    width: 45%;
+    margin: 10px;
+}
+.custom-file {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fa-arrow-down {
+    position: relative;
+    animation-duration: 2s;
+    animation-name: updown;
+    animation-iteration-count: infinite;
+}
+@keyframes updown {
+    0%   {top:0px;}
+    50%  {top:25px;}
+    100% {top:0px;}
 }
