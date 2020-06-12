@@ -25,7 +25,7 @@
                             물품
                         </th>
                         <th scope="col">
-                            위치
+                            장소
                         </th>
                         <th scope="col">
                             날짜
