@@ -42,7 +42,7 @@
                     <div class="form-group row">
                         <label class="col-sm-1 col-form-label"></label>
                         <div class="col-sm-10">
-                            <input type='submit' class="signup-button btn btn-dark form-control" value='계정 생성' disabled/>
+                            <input type='submit' class="signup-button confirm-button btn btn-dark form-control" value='계정 생성' disabled/>
                         </div>
                     </div>
                 </form>
@@ -59,7 +59,7 @@
     $('.fa-check').css("display", "none");
     var confirmPassword = function(str1, str2){
         if(str1 == str2 && str1 != ""){
-            $('.signup-button').attr('disabled', false);
+            $('.confirm-button').attr('disabled', false);
             $('.fa-times').css("display", "none");
             $('.fa-check').css("display", "block");
         }
