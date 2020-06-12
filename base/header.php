@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light">
         <img src="image/logo.png" alt="logo" width="60" height="60"/>
-        <a class="navbar-brand" onClick="location.href='/'">Histhing</a>
+        <a class="navbar-brand" onClick="location.href='/'">thing</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
