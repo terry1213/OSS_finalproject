@@ -7,8 +7,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active" onClick="location.href='/'">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item" onClick="location.href='/'">
+                    <a class="nav-link">Home</a>
                 </li>
                 <li class="nav-item" onClick="location.href='/list.php'">
                     <a class="nav-link">List</a>
