@@ -44,7 +44,7 @@
                     <label for="detail">상세 설명</label>
                     <textarea class="form-control" rows="5" name="detail" id="detail" placeholder="상세한 설명을 입력해 주세요."></textarea>
                 </div>
-                <p><strong>물품 사진</strong></p>
+                <p><strong>물품 사진(3MB 이하)</strong></p>
                 <div class="custom-file form-group">
                     <label class="custom-file-label" for="image">물품 사진을 선택해주세요.</label>
                     <input type="file" class="custom-file-input" name="image" id="image">
