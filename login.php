@@ -13,7 +13,7 @@
     <article>
         <div class ="login-container container col-lg-4">
             <div class="login-jumbo jumbotron">
-                <form method='post' action='login_ok.php'>
+                <form method='post' action='loginAction.php'>
                     <h2 class="text-center">Login</h2>
                     <div class="form-group">
                         <input class="form-control" type='text' name='user_id' placeholder="ID"/>
