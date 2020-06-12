@@ -22,8 +22,8 @@
         echo "</tr>";
         echo "</tbody>";
         echo "</table>";
-        
-        echo "<button class='btn btn-info' onClick=\"location.href='/logout.php'\">로그아웃</button>";
+        echo "<button class='btn btn-info btn-sm' onClick=\"location.href='/logout.php'\">로그아웃</button>";
+        echo "<button class='btn btn-info btn-sm' onClick=\"location.href='/myAccount.php'\">나의 정보</button>";
         echo "</div>"
     ?>
 </aside>
