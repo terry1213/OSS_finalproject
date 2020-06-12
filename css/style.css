@@ -11,6 +11,11 @@ i, button, input {
 p {
     margin: 0;
 }
+img {
+    max-height: 500px;
+    max-width: 100%;
+    margin: 5px;
+}
 textarea {
     resize: none;
 }
@@ -118,4 +123,9 @@ footer .copyright a {
     0%   {top:0px;}
     50%  {top:25px;}
     100% {top:0px;}
+}
+.half {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
 }
