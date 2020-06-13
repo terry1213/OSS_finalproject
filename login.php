@@ -8,6 +8,11 @@
 <body>
     <?php
         include ("base/header.php");
+        session_start();
+        if(isset($_SESSION['user_id']) && isset($_SESSION['user_name'])) {
+            echo "<meta http-equiv='refresh' content='0;url=/'>";
+            exit;
+        }
     ?>
 
     <article>
