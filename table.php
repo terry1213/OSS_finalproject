@@ -28,16 +28,17 @@
         else{
             $writer_id = $_GET['writer_id'];
         }
-        echo $search;
         
         $conn = mysqli_connect(
           'localhost',
           'root',
           '1213',
           'histhing');
-        $sql = "SELECT item_id, writer_id, name, locate, date, state FROM Item WHERE (name LIKE '%".$search."%' OR locate LIKE '%".$search."%') AND writer_id LIKE '%".$writer_id."%' ORDER BY item_id DESC LIMIT ".$page.", 10";
+        $sql = "SELECT item_id, writer_id, name, locate, date, state FROM Item WHERE (name LIKE '%".$search."%' OR locate LIKE '%".$search."%') AND writer_id LIKE '%".$writer_id."%'";
         $result = mysqli_query($conn, $sql);
         $maxPage = ceil(mysqli_num_rows($result) / 10);
+        $sql = "SELECT item_id, writer_id, name, locate, date, state FROM Item WHERE (name LIKE '%".$search."%' OR locate LIKE '%".$search."%') AND writer_id LIKE '%".$writer_id."%' ORDER BY item_id DESC LIMIT ".$page.", 10";
+        $result = mysqli_query($conn, $sql);
         $count = 0;
         while($row = mysqli_fetch_array($result)) {
             echo '<tr class="item-tr" onClick="location.href=\'/item.php?item_id='.$row['item_id'].'\'">';
