@@ -1,7 +1,7 @@
 # [OSS Final Project] Histhing
 
 # 1. Histhing이란?
-Histhing은 잃어버린 물건을 찾거나 찾아주는 과정을 편하게 만들어주기 위한 서비스입니다. 한동대에서 실명카톡방에 제일 많이 올라오는 글 중 하나가 바로 잃어버린 물건의 주인을 찾는 글입니다. 하지만 실명카톡방은 좋은 환경을 제공해주지 못합니다. 여러 다른 글들도 올라와서 복잡하고 검색을 하여 찾는 것도 불편합니다. 이러한 불편함을 없애기 위해 Histhing 서비스를 개발했습니다.
+Histhing은 잃어버린 물건을 찾거나 찾아주는 과정을 편하게 만들어주기 위한 서비스입니다. 한동대에서 실명카톡방에 제일 많이 올라오는 글 중 하나가 바로 잃어버린 물건의 주인을 찾는 글입니다. 하지만 실명카톡방은 좋은 환경을 제공해주지 못합니다. 여러 다른 글들도 올라와서 복잡하고 검색을 하여 찾는 것도 불편합니다. 이러한 불편함을 없애기 위해 Histhing 서비스를 개발습했니다.
 
 
 # 2. 특징
@@ -54,9 +54,8 @@ git clone을 통해 repository를 서버로 사용할 컴퓨터에 복사한다.
 	mv OSS_finalproject/* /var/www/html
 
 ## 4.3. tmp, uploads 디렉토리 생성
-/var/www/html 에 이미지를 임시 저장할 tmp 폴더와 최종 저장할 uploads 디렉토리를 생성한다.
+/var/www/html 에 이미지를 저장할 uploads 디렉토리를 생성한다.
 
-	mkdir /var/www/html/tmp
 	mkdir /var/www/html/uploads
 
 ## 4.4. php 설정
@@ -71,10 +70,6 @@ git clone을 통해 repository를 서버로 사용할 컴퓨터에 복사한다.
 php.ini에서 file_uploads 부분을 찾아 주석을 풀고 아래와 같이 수정한다.
 
 	file_uploads = On
-
-upload_tmp_dir 부분을 찾아 임시 저장 디렉토리를 /var/www/html/tmp 로 지정한다.
-
-	upload_tmp_dir = “/var/www/html/tmp”
 
 upload_max_filesize 부분을 찾아 8M로 수정한다.
 
