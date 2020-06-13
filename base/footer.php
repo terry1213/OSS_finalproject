@@ -16,7 +16,7 @@
                         <a class="link" onClick="location.href='/list.php'">List</a>
                     </li>
                     <li>
-                        <a class="link" onClick="location.href='/MyPage.php'">My Page</a>
+                        <a class="link" onClick="location.href='/myPage.php'">My Page</a>
                     </li>
                 </ul>
             </div>
