@@ -15,48 +15,15 @@
 
     <div class="wrap">
         <article>
-            <table class="table table-striped item-list">
-                <thead>
-                    <tr>
-                        <th scope="col">
-                            NO.
-                        </th>
-                        <th scope="col">
-                            물품
-                        </th>
-                        <th scope="col">
-                            장소
-                        </th>
-                        <th scope="col">
-                            날짜
-                        </th>
-                        <th scope="col">
-                            상태
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                <?php
-                    $conn = mysqli_connect(
-                      'localhost',
-                      'root',
-                      '1213',
-                      'histhing');
-                    $sql = "SELECT item_id, writer_id, name, locate, date, state FROM Item ORDER BY item_id DESC";
-                    $result = mysqli_query($conn, $sql);
-                    $count = 0;
-                    while($row = mysqli_fetch_array($result)) {
-                        echo '<tr class="item-tr" onClick="location.href=\'/item.php?item_id='.$row['item_id'].'\'">';
-                        echo '<td scope="row">'.++$count.'</td>';
-                        echo '<td>'.$row['name'].'</td>';
-                        echo '<td>'.$row['locate'].'</td>';
-                        echo '<td>'.$row['date'].'</td>';
-                        echo '<td>'.$row['state'].'</td>';
-                        echo '</tr>';
-                    }
-                ?>
-                </tbody>
-            </table>
+            <h2 class="page-title">List</h2>
+            <div class="input-group mb-4 border rounded-pill p-1">
+                <div class="input-group-prepend border-0">
+                    <button id="button-addon4" type="button" class="btn btn-link text-info" onclick="tableLoad();" ><i class="fa fa-search"></i></button>
+                </div>
+                <input type="search" id="search" name="search" onkeyup="enterkey();" placeholder="찾고 계신 물품 이름이나 장소를 입력하여 검색하세요!" aria-describedby="button-addon4" class="form-control bg-none border-0">
+            </div>
+            <div class="table-div">
+            </div>
             <button class='btn btn-info' onClick="location.href='/upload.php'">글쓰기</button>
         </article>
 
@@ -65,5 +32,19 @@
         ?>
     </div>
 </body>
+<script>
+    $(document).ready(function(){
+        tableLoad();
+    });
 
+    function tableLoad(){
+        $(".table-div").load('table.php?search=' + $("#search").val().replace(' ', '+') + '&page=' + '1');
+    }
+
+    function enterkey() {
+        if (window.event.keyCode == 13) {
+            tableLoad();
+        }
+    }
+</script>
 </html>
