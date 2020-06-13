@@ -83,6 +83,11 @@
 
                     </div>
                     <input type="button" class="btn btn-info" onclick="history.back();" value="돌아가기">
+                    <?php
+                        if($row['writer_id'] == $_SESSION['user_id'] && $row['state'] == "lost"){
+                            echo '<input type="button" class="btn btn-info" onclick="location.href=\'/foundOwner.php?item_id='.$row['item_id'].'\'" value="주인 찾음">';
+                        }
+                    ?>
                 </div>
                     <?php
                         if($row['image_path'] != NULL){
