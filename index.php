@@ -66,11 +66,11 @@
                     <h5 class="my-0">NEW</h5>
                     <table class="table mt-3 mb-4">
                         <tbody>
-                            <tr>
+                            <tr class="item-tr">
                                 <th scope='row'><i class='fa fa-bars' aria-hidden='true'></i>물품</th>
                                 <?php
                                     $row = mysqli_fetch_array($result);
-                                    echo "<td>".$row['name']."</td>";
+                                    echo "<td onclick='location.href=\"/item.php?item_id=".$row['item_id']."\"'>".$row['name']."</td>";
                                 ?>
                             </tr>
                             <tr>
@@ -79,11 +79,15 @@
                                     echo "<td>".$row['locate']."</td>";
                                 ?>
                             </tr>
-                            <tr>
+                        </tbody>
+                    </table>
+                    <table class="table mt-3 mb-4">
+                        <tbody>
+                            <tr class="item-tr">
                                 <th scope='row'><i class='fa fa-bars' aria-hidden='true'></i>물품</th>
                                 <?php
                                     $row = mysqli_fetch_array($result);
-                                    echo "<td>".$row['name']."</td>";
+                                    echo "<td onclick='location.href=\"/item.php?item_id=".$row['item_id']."\"'>".$row['name']."</td>";
                                 ?>
                             </tr>
                             <tr>

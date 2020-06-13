@@ -42,11 +42,11 @@
                       'root',
                       '1213',
                       'histhing');
-                    $sql = "SELECT writer_id, name, locate, date, state FROM Item ORDER BY item_id DESC";
+                    $sql = "SELECT item_id, writer_id, name, locate, date, state FROM Item ORDER BY item_id DESC";
                     $result = mysqli_query($conn, $sql);
                     $count = 0;
                     while($row = mysqli_fetch_array($result)) {
-                        echo '<tr>';
+                        echo '<tr class="item-tr" onClick="location.href=\'/item.php?item_id='.$row['item_id'].'\'">';
                         echo '<td scope="row">'.++$count.'</td>';
                         echo '<td>'.$row['name'].'</td>';
                         echo '<td>'.$row['locate'].'</td>';
