@@ -12,7 +12,7 @@
                 <li class="nav-item" onClick="location.href='/list.php'">
                     <a class="nav-link">List</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" onClick="location.href='/myPage.php'">
                     <a class="nav-link">My Page</a>
                 </li>
             </ul>
