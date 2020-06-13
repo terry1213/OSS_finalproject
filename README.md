@@ -77,7 +77,12 @@ upload_max_filesize 부분을 찾아 8M로 수정한다.
 	
 저장 후 닫으면 php.ini 파일 수정이 완료된다.
 
-## 4.5. Apache 재시작
+## 4.5. 권한 수정
+파일이 업로드 되어야 하기 때문에 권한을 수정한다.
+
+	chmod 777 /var/www/html/*
+
+## 4.6. Apache 재시작
 변경한 사항들을 적용하기 위해 Apache를 재시작하면 서버 구축을 위한 모든 준비가 끝난다.
 
 	service apache2 restart
