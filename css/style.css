@@ -49,6 +49,7 @@ aside{
     float: right;
 }
 footer {
+    height: 150px;
     position:absolute;
     bottom:0;
     width:100%;
@@ -73,7 +74,7 @@ footer .copyright a {
 .wrap {
     min-height: 100%;
     position: relative;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 .user-info {
     display: block;
@@ -128,4 +129,7 @@ footer .copyright a {
     width: 50%;
     float: left;
     padding-right: 10px;
+}
+.item-tr {
+    cursor: pointer;
 }
