@@ -16,7 +16,7 @@
     <div class="wrap">
         <article>
             <h2 class="page-title">My Page</h2>
-            <h6 class="page-title">내가 올린 글</h6>
+            <h6 class="page-title">내가 올린 물품</h6>
             <div class="input-group mb-4 border rounded-pill p-1">
                 <div class="input-group-prepend border-0">
                     <button id="button-addon4" type="button" class="btn btn-link text-info" onclick="tableLoad();" ><i class="fa fa-search"></i></button>
