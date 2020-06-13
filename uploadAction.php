@@ -45,8 +45,10 @@
         }
         
         if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file) != 1) {
-            echo "<script>alert('이미지 업로드가 실패했습니다.');history.back();</script>";
-            exit;
+            echo $target_file;
+            echo $_FILES["image"]["tmp_name"];
+//            echo "<script>alert('이미지 업로드가 실패했습니다.');history.back();</script>";
+//            exit;
         }
     }
     else{
