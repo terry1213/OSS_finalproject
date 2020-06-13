@@ -16,6 +16,7 @@
     
     <div class="wrap">
         <article>
+            <h2 class="page-title">New item</h2>
             <form class="upload-form" name="upload-form" id="upload-form" role="form" method="post" action="\uploadAction.php" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="name">물품</label>

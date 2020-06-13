@@ -28,6 +28,7 @@
     
     <div class="wrap">
         <article>
+            <h2 class="page-title">My Account</h2>
             <form class="account-form" action="/myAccountAction.php" method="post" id="registrationForm">
                 <div class="form-group">
                     <div>
