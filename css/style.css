@@ -133,3 +133,15 @@ footer .copyright a {
 .item-tr {
     cursor: pointer;
 }
+.page-title {
+    margin-bottom: 20px;
+}
+.pagination-nav {
+    text-align: center;
+}
+.pagination {
+    display: inline-block;
+}
+.page-item {
+    float: left;
+}
