@@ -8,7 +8,7 @@
     $user_name = $_SESSION['user_name'];
 
     if($_FILES["image"]["name"]) {
-        $target_dir = "var/www/html/uploads/";
+        $target_dir = "/var/www/html/uploads/";
         $target_file = $target_dir . basename($_FILES["image"]["name"]);
         $uploadOk = 1;
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
