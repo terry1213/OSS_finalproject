@@ -48,7 +48,7 @@
             echo $target_file;
             echo $_FILES["image"]["tmp_name"];
 //            echo "<script>alert('이미지 업로드가 실패했습니다.');history.back();</script>";
-//            exit;
+            exit;
         }
     }
     else{
