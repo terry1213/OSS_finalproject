@@ -53,7 +53,7 @@ git clone을 통해 repository를 서버로 사용할 컴퓨터에 복사한다.
 
 	mv OSS_finalproject/* /var/www/html
 
-## 4.3. tmp, uploads 디렉토리 생성
+## 4.3. uploads 디렉토리 생성
 /var/www/html 에 이미지를 저장할 uploads 디렉토리를 생성한다.
 
 	mkdir /var/www/html/uploads
